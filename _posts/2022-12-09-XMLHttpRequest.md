@@ -1,7 +1,7 @@
 ---
 layout: post
-title: hello github page
-date: 2022-12-08 0:43
+title: 封装AJAX
+date: 2022-12-09 23:43
 author: "xyh"
 tags:
     - AJAX
