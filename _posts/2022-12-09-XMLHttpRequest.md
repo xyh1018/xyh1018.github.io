@@ -1,3 +1,13 @@
+---
+layout: post
+title: hello github page
+date: 2022-12-08 0:43
+author: "xyh"
+tags:
+    - AJAX
+    - javascript
+---
+
 ```javascript
 class Ajax {
             constructor(url, options) {
