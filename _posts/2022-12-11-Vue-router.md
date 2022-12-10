@@ -42,7 +42,7 @@ const router = createRouter({
 在v4版本中，如果希望使用hash路由，在创建router时在history配置项中使用`createWebHashHistory()`。如果希望使用history路由，使用`createWebHistory()`
 
 ## 编程式导航
-- 声明式: <router-link :to="...">
+- 声明式: \<router-link :to="...">
 - 编程式: router.push(...)
 ### 跳转路由
 想要导航到不同的 URL，可以使用 `router.push` 方法。这个方法会向 history 栈添加一个新的记录，所以，当用户点击浏览器后退按钮时，会回到之前的 URL。当你点击 \<router-link> 时，内部会调用这个方法，所以点击 \<router-link :to="..."> 相当于调用 router.push(...)
