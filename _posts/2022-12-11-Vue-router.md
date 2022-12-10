@@ -8,10 +8,10 @@ tags:
     - Vue-router
 ---
 ## 动态路由
-#### 如何传值给路由页面
+- 如何传值给路由页面
 1. `<router-link to="/path?参数名=值"></router-link>`
 2. `path: '/path/:参数名'` | `<router-link to="/path/值"></router-link>`
-#### 如何接受路由传值
+- 如何接受路由传值
 1. `$route.query.参数名`
 2. `$route.params.参数名`
 
