@@ -1,3 +1,12 @@
+---
+layout: post
+title: Vue-router
+date: 2022-12-11 04:16
+author: "xyh"
+tags:
+    - Vue
+    - Vue-router
+---
 ## 动态路由
 #### 如何传值给路由页面
 1. `<router-link to="/path?参数名=值"></router-link>`
